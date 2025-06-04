@@ -421,3 +421,117 @@ hr {
 .steps:last-child .step-icon-wrapper::after {
   display: none;
 }
+
+.section-5 {
+  margin: 100px 0;
+}
+
+.section-5-structure {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: start;
+  /* justify-content: start; */
+}
+
+.section-5-image {
+  position: relative;
+  width: 610px;
+  height: 610px;
+}
+
+.int5-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 605px;
+  height: 605px;
+  border-radius: 3px;
+  z-index: 0;
+}
+
+.section-5-buttons {
+  display: flex;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.section-5-buttons button {
+  width: 62px;
+  height: 62px;
+  background-color: #f3f3f3;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 16px;
+}
+
+.section-5-buttons button img {
+  width: 62px;
+  height: 62px;
+  object-fit: contain;
+}
+
+.section-5-text {
+  position: relative;
+  height: 100%;
+}
+
+.section-5-text h1 {
+  font-size: 50px;
+  font-weight: 580;
+  color: #1f1f1f;
+  letter-spacing: 1px;
+  margin: 0 105px 20px 0;
+}
+
+.reviews {
+  position: absolute;
+  width: 100%;
+  height: 505px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.review1 img:nth-child(1) {
+  position: absolute;
+  bottom: 0;
+  right: 564px;
+  width: 510px;
+  height: 510px;
+  z-index: 1;
+}
+
+.review1 img:nth-child(2) {
+  position: absolute;
+  bottom: 99px;
+  left: -426px;
+  width: 61px;
+  height: 61px;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.review2 img:nth-child(1) {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  width: 510px;
+  height: 510px;
+  z-index: 1;
+}
+
+.review2 img:nth-child(2) {
+  position: absolute;
+  bottom: 99px;
+  right: 406px;
+  width: 61px;
+  height: 61px;
+  z-index: 2;
+  border-radius: 50%;
+}
